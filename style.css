@@ -1,0 +1,41 @@
+.carousel .carousel-caption {
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.label {
+  bottom: 15px;
+  left: 15px;
+}
+
+.text-block {
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+
+.tags-box {
+  margin-bottom: -0.5rem;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    background-color: #6C757D;
+    /* bg-secondary */
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11111;
+  }
+
+  .navbar .container {
+    border-bottom: 1px solid #FFF;
+  }
+}
